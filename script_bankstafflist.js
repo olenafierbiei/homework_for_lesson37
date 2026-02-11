@@ -44,7 +44,7 @@ class EmpTable {
 
 // Створюємо масив працівників
 const bankStaff = [
-  new Employee("Olena Ferbey", "Full Stack Developer", "IT", 1500),
+  new Employee("Oliver Broddi", "Full Stack Developer", "IT", 1500),
   new Employee("John Fang", "Security Specialist", "Data Vault", 2000),
   new Employee("Hanna Wilson", "Cloud Manager", "Infrastructure", 2000),
   new Employee("Max Weber", "Financial Analyst", "Economy", 2500)
