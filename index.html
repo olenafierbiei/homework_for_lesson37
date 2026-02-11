@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS lesson 37</title>
+  <script src="script_circle.js" dafer></script>
+  <script src="script_marker.js" dafer></script>
+  <script src="script_bankstafflist.js" dafer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="circle-demo">
+    <h2>Малювання кола</h2>
+    <div class="controls">
+      <input type="number" id="radiusInput" placeholder="Введіть радіус (px)" value="50">
+      <button id="drawBtn" class="buttons-colors">Намалювати</button>
+    </div>
+
+    <div id="canvas">
+      <div id="visualCircle"></div>
+    </div>
+
+    <div id="circleInfo">
+      <p>Площа: <span id="areaVal">0</span></p>
+      <p>Довжина: <span id="lengthVal">0</span></p>
+    </div>
+  </section>
+  <section class="marker-demo">
+    <h2>Інтерактивний маркер</h2>
+
+    <div class="marker-controls">
+      <div class="color-picker-wrapper">
+        <label for="markerColor">Колір:</label>
+        <input type="color" id="markerColor" value="#9C69E2">
+      </div>
+
+      <input type="text" id="markerTextInput" placeholder="Напишіть щось...">
+      <button id="printBtn" class="buttons-colors">Друкувати</button>
+      <button id="refillBtn" class="buttons-simple">Заправити</button>
+    </div>
+
+    <div class="ink-status">
+      <span>Чорнило:</span>
+      <div class="progress-bar">
+        <div id="inkLevel" style="width: 100%;"></div>
+      </div>
+      <span id="inkValue">100%</span>
+    </div>
+
+    <div id="paper"></div>
+
+  </section>
+  <section class="staff-section">
+    <h2>Bank Staff List</h2>
+    <div id="tableContainer"></div>
+  </section>
+</body>
+
+</html>

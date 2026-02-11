@@ -1,0 +1,130 @@
+.circle-demo {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+  border-radius: 50px;
+  margin: 40px 0;
+}
+
+#canvas {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  border: 1px dashed #ccc;
+  /* рамка, щоб бачити межі */
+}
+
+#visualCircle {
+  background-color: #9C69E2;
+  border-radius: 50%;
+  /* Це робить квадрат колом */
+  transition: all 0.3s ease;
+  /* плавна зміна розміру */
+}
+
+.controls input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #9C69E2;
+  margin-right: 10px;
+}
+
+/*стилі для маркерів*/
+.marker-demo {
+  padding: 40px;
+  background: #f4f4f4;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+
+.ink-status {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#inkLevel {
+  height: 100%;
+  background: #9C69E2;
+  /* колір нашого маркера */
+  transition: width 0.3s ease;
+}
+
+#paper {
+  min-height: 100px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  word-wrap: break-word;
+  border-radius: 10px;
+}
+
+.color-picker-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+#markerColor {
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: none;
+}
+
+.staff-section {
+  padding: 50px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 40px 0;
+}
+
+.bank-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.bank-table th {
+  background-color: #9C69E2;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.bank-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  color: #4B5D68;
+}
+
+.bank-table tr:hover {
+  background-color: #F6F0FD;
+  transition: background 0.3s ease;
+}
+
+.bank-table tr:last-child td {
+  border-bottom: none;
+}
